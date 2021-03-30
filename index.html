@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylsheet" href="/css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Grade tracker</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1> Grade tracker</h1>
+    </header>
+    <main>
+        <form id="myForm">
+            <fieldset>
+                <legend>Marks</legend>
+                <label for="name"> Student name </label> <br>
+                <input type="text" name="name" id="name"> <br>
+                <label for="course">course </label> <br>
+                <select name="course" id="course">
+                    <option value="Arabic">Arabic</option>
+                    <option value="English">English</option>
+                    <option value="math">math</option>
+
+
+                </select> <br>
+
+
+                <input type="submit" value="submit" id="submit">
+
+
+
+            </fieldset>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>marks</th>
+                    <th>course</th>
+                </tr>
+            </thead>
+            <tbody id="marksTable"></tbody>
+        </table>
+
+
+
+
+
+
+        <!-- 
+        <table>
+            <thead>
+            
+            <tr>
+            <th>name</th>
+            <th>Student grades</th>
+            <th>course</th>
+        </tr> 
+    </thead>
+    <tbody id="marksTable" ></tbody>
+        </table> -->
+    </main>
+    <footer></footer>
+    <script src="/app.js"></script>
+</body>
+
+</html>
